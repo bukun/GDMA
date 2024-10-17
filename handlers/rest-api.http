@@ -1,0 +1,14 @@
+#GET http://csw.py?service=CSW&version=3.0.0&request=GetCapabilities
+#GET  https://csw.deep-time.org/csw
+
+#
+#GET https://ikcest-drr.osgeo.cn/csw
+#Accept: application/xml
+
+#GET https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetRecords&CONSTRAINTLANGUAGE=FILTER&typeNames=csw30:Record
+#Accept: application/xml
+
+###
+
+#GET https://ikcest-drr.osgeo.cn/csw?service=CSW&version=2.0.2&request=GetCapabilities
+GET http://47.104.88.15:8793/csw?service=CSW&version=2.0.2&request=GetCapabilities

@@ -1,0 +1,33 @@
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetCapabilities
+
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetRecords&CONSTRAINTLANGUAGE=FILTER&typeNames=csw30:Record&outputFormat=application/json
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetRecordById&id=drrks-0275
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetRecordById&id=drrks-12db&elementSetName=full
+https://ikcest-drr.osgeo.cn/csw?id=drrks-12db&elementSetName=full&request=GetRecordById&service=CSW&version=3.0.0
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=2.0.2&request=GetCapabilities&mode=sru
+https://ikcest-drr.osgeo.cn/csw?mode=sru&operation=searchRetrieve&query=a
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=2.0.2&request=GetCapabilities&mode=opensearch
+https://ikcest-drr.osgeo.cn/csw?mode=oaipmh&verb=Identify
+
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=2.0.2&request=GetCapabilities
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=2.0.2&request=GetRecords&CONSTRAINTLANGUAGE=FILTER&typeNames=csw:Record&ElementSetName=full
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=2.0.2&request=GetRecords&CONSTRAINTLANGUAGE=FILTER&typeNames=csw:Record&ElementSetName=full&DistributedSearch=1&hopCount=2
+
+
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=2.0.2&request=GetRecordById&id=drrks-12db
+
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetCapabilities
+
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetRecords&CONSTRAINTLANGUAGE=FILTER&typeNames=csw30:Record&DistributedSearch=1&hopCount=2
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetRecords&CONSTRAINTLANGUAGE=FILTER&typeNames=csw30:Record&DistributedSearch=1&hopCount=2
+
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetRecords&CONSTRAINTLANGUAGE=FILTER&typeNames=csw30:Record&ElementSetName=full&DistributedSearch=1&hopCount=2&maxRecords=5&startPosition=5
+
+# 联邦检索
+https://ikcest-drr.osgeo.cn/csw?&service=CSW&version=3.0.0&request=GetRecords&CONSTRAINTLANGUAGE=FILTER&typeNames=csw30:Record&DistributedSearch=1&hopCount=2&ElementSetName=full&maxRecords=5&startPosition=1
+https://ikcest-drr.osgeo.cn/csw?&service=CSW&version=3.0.0&request=GetRecords&CONSTRAINTLANGUAGE=FILTER&typeNames=csw30:Record&ElementSetName=full&maxRecords=5&startPosition=1
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetRecordById&id=drrks-12db
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetRecordById&id=drrks-12db&distributedsearch=TRUE
+
+
+https://ikcest-drr.osgeo.cn/csw?service=CSW&version=3.0.0&request=GetRecords&CONSTRAINTLANGUAGE=FILTER&typeNames=csw:Record&ElementSetName=full&constraintlanguage=urn:ogc:def:queryLanguage:OGC-CSW:CQLTEXTconstraint="csw:AnyText Like '%数%'"
